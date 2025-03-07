@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="search-bar" placeholder="Search notes..">
+    
+    <div class="container">
+        <!-- Dark Mode Toggle Button -->
+        <button id="theme-toggle">🌙</button>
+
+        <h1>Notes Application</h1>
+        <div class="notes-text">
+            <input type="text" id="notes-title" placeholder="Title">
+            <textarea id="notes-text" placeholder="Write your notes here.."></textarea>
+            <button id="add-notes">Add Notes</button>
+        </div>
+        <div class="notes-container" id="notes-container">
+            <!-- Notes will be displayed here -->
+        </div>
+    </div>
+
+    <script src="notes.js"></script>
+</body>
+</html>
