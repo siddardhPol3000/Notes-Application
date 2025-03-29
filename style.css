@@ -185,8 +185,8 @@ body.dark-mode .new-note-section {
 
 .new-note-section button {
     display: block;
-    width: 100%;
-    margin-top: 10px;
+    width: 100px;
+    margin: 10px auto; /* This will center the button */
     padding: 10px;
     background: #5e35b1;
     color: white;
@@ -195,6 +195,7 @@ body.dark-mode .new-note-section {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
 
 .new-note-section button:hover {
     background: #4527a0;
